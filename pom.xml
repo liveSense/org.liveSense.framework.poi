@@ -66,6 +66,8 @@
                             org.apache.tools.ant;resolution:=optional,
                             org.apache.tools.ant.taskdefs;resolution:=optional,
                             org.apache.tools.ant.types;resolution:=optional,
+                            junit.framework.*;resolution:=optional,
+                            junit.textui.*;resolution:=optional,
                             *
                         </Import-Package>
                         <DynamicImport-Package>
